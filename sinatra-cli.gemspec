@@ -5,11 +5,11 @@ require 'sinatra/cli/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "sinatra-cli"
-  spec.version       = Sinatra::Cli::VERSION
+  spec.version       = Sinatra::CLI::VERSION
   spec.authors       = ["Eric Kelly"]
   spec.email         = ["heroiceric@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{A CLI for generating Sinatra apps.}
+  spec.description   = %q{}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "thor"
 end
