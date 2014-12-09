@@ -16,8 +16,8 @@ module Sinatra
       end
 
       def create_views_dir
-        template "app/views/index.erb", "#{app_name}/views/index.erb"
-        template "app/views/layout.erb", "#{app_name}/views/layout.erb"
+        template "app/views/index.erb", "#{app_name}/app/views/index.erb"
+        template "app/views/layout.erb", "#{app_name}/app/views/layout.erb"
       end
 
       def create_database_config
